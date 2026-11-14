@@ -7,23 +7,23 @@ class Dove < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dominik-lenhart/dove/releases/download/v0.10.0/dove-v0.10.0-aarch64-apple-darwin.tar.gz"
-      sha256 "2cd62951cbb1d89e3919f1a155a4c0be054b81b3e4f06bd3158fbb75f0793376"
+      url "https://github.com/dominik-lenhart/dove/releases/download/v0.11.0/dove-v0.11.0-aarch64-apple-darwin.tar.gz"
+      sha256 "45c3a07c65ca690f7e84fcf81be8485d2ee6919d49d5e96af65433870c287077"
     end
     on_intel do
-      url "https://github.com/dominik-lenhart/dove/releases/download/v0.10.0/dove-v0.10.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9a6edc61cd22c4788ad653532e6b41e24db54de03197c84d5726ea0c628f666f"
+      url "https://github.com/dominik-lenhart/dove/releases/download/v0.11.0/dove-v0.11.0-x86_64-apple-darwin.tar.gz"
+      sha256 "091564ce15ab8253cc6de38a9bc4cffdb238a72a327e36ef52a3f60aca0c22ce"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dominik-lenhart/dove/releases/download/v0.10.0/dove-v0.10.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "bfaa36f4266fea30ed0a2e8fc1945e4281b951644c18f411d0cb32239fdefc21"
+      url "https://github.com/dominik-lenhart/dove/releases/download/v0.11.0/dove-v0.11.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "a6f2ff292255adb1b52735de52d6a7672b25627b9785f17b58e4f0efd3785390"
     end
     on_intel do
-      url "https://github.com/dominik-lenhart/dove/releases/download/v0.10.0/dove-v0.10.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "eb7f9874dba93c7bc71070075579a5608c6225841e183557d65e90bd44cffef4"
+      url "https://github.com/dominik-lenhart/dove/releases/download/v0.11.0/dove-v0.11.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f4ad4a40cbb662de4f7b2db7eb78b3c1723fe7bc8f530f82f9405835750234ea"
     end
   end
 
